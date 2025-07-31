@@ -1,1 +1,143 @@
 
+.menu-toggle {
+  display: block;
+}
+
+.nav-links {
+  display: none;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  display: block;
+}
+.logo-text {
+  font-size: 1.5rem;
+  display: none;
+}
+
+.sidebar {
+  width:100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.sidebar ul li a {
+  font-size: 1rem;
+}
+#content {
+  margin-top: 0;
+}
+
+/* HOME ============================================================== */
+.home-container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-photo img {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.home-info h1 {
+  font-size: 2rem;
+}
+
+.home-info p {
+  font-size: 1rem;
+}
+
+.home-info .btn {
+  margin: 0 auto;
+}
+.home-socials {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 80%;
+}
+.grid-container {
+  grid-template-columns: 1fr; 
+}
+
+.grid-item.vertical {
+  grid-row: span 1; 
+}
+.landing {
+  display: none;
+}
+.grid-container {
+  max-width: 100%;
+  padding: 10px;
+}
+.grid-deks {
+  padding: 5px;
+  gap: 20px;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: row;
+}
+.grid-deks h4 {
+  font-size: 1rem;
+}
+.grid-deks p {
+  font-size: 0.8rem;
+}
+.grid-item img {
+  width: 30px;
+  height: 30px;
+}
+.grid-item.horizontal2 {
+  display: none;
+}
+.grid-item.horizontal {
+  background: #ffffff00;
+}
+.grid-item.horizontal:after {
+  background: #ffffff00;
+}
+.gamemode-item img {
+  height: 200px;
+  border-radius: 20px;
+  display: none;
+}
+.gamemode-item {
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+}
+.mobile {
+  display: block;
+}
+.gamemode-text:hover {
+  transform: scale(1);
+  border: 1.5px solid #aa32ff;
+}
+.gamemode-title h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+.store .coin-item, .store .rank-item {
+  width: 35%;
+  min-width: 3px;
+}
+.store .coin-item i, .store .rank-item i {
+  font-size: 5rem;
+}
+.store {
+  padding: 0px 0px;
+}
+.galery img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeDown 0.5s ease-out forwards;
+ }
