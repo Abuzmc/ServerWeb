@@ -112,9 +112,9 @@ function copyToClipboard() {
 
 
 const servers = [
-  { ip: "overlcraft.my.id" },
-  { ip: "overlcraft.my.id" },
-  { ip: "overlcraft.my.id" }
+  { ip: "play.overlcraft.my.id" },
+  { ip: "play.overlcraft.my.id" },
+  { ip: "play.overlcraft.my.id" }
 ];
 
 function updateServerStatus() {
