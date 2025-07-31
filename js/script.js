@@ -149,7 +149,7 @@ updateServerStatus();
 
 
 async function fetchDiscordStats() {
-  const DISCORD_SERVER_ID = '1015158739822710785'; // Ganti dengan ID server Discord-mu
+  const DISCORD_SERVER_ID = '1351324870860083321'; // Ganti dengan ID server Discord-mu
   try {
     const response = await fetch(`https://discord.com/api/v9/guilds/${DISCORD_SERVER_ID}/widget.json`);
     const data = await response.json();
