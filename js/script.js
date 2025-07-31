@@ -112,15 +112,15 @@ function copyToClipboard() {
 
 
 const servers = [
-  { ip: "cornez.xyz" },
-  { ip: "cornez.xyz" },
-  { ip: "cornez.xyz" }
+  { ip: "overlcraft.my.id" },
+  { ip: "overlcraft.my.id" },
+  { ip: "overlcraft.my.id" }
 ];
 
 function updateServerStatus() {
   servers.forEach((server, index) => {
     // Gunakan minetools.eu
-    fetch(`https://api.minetools.eu/ping/${server.ip}`)
+    fetch(`https://api.minetools.eu/ping/${server.ip}/19132`)
       .then(res => res.json())
       .then(data => {
         const statusEl = document.getElementById(`status-${index}`);
