@@ -1,124 +1,69 @@
 <section class="store-container">
-    <!-- Pilihan EarthSmp/EcoRpg -->
+    <!-- Pilihan Coin/Rank -->
     <div class="store-menu">
-        <h1 style="animation: zoomInFadeUp 0.5s ease forwards;">Economy and EarthSmp Rank store</h1>
+        <h1 style="animation: zoomInFadeUp 0.5s ease forwards;">Coins and Ranks store</h1>
         <div class="store-btn-group" role="group">
-            <button type="button" class="store-btn btn-secondary" onclick="selectOption('EarthSmp')">EarthSmp</button>
-            <button type="button" class="store-btn btn-secondary" onclick="selectOption('EcoRpg')">EcoRpg</button>
+            <button type="button" class="store-btn btn-secondary" onclick="selectOption('Coin')">Coin</button>
+            <button type="button" class="store-btn btn-secondary" onclick="selectOption('Rank')">Rank</button>
         </div>
     </div>
-    
- <!-- EarthSmp Section -->
-    <div id="rank-section" class="store mt-4" style="display: none;">
-        <div class="rank-items">
-            <div class="rank-item">
-                <i class="bi bi-diagram-2"></i>
-                <p>BRONZE RANK</p>
+
+    <!-- Coin Section -->
+    <div id="coin-section" class="store">
+        <div class="coin-items">
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>400 COIN</p>
+                <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
+                    <button class="store-btn btn-primary">IDR 5.000</button>
+                </a>
+            </div>
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>800 COIN</p>
+                <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
+                    <button class="store-btn btn-primary">IDR 10.000</button>
+                </a>
+            </div>
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>1600 COIN</p>
                 <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
                     <button class="store-btn btn-primary">IDR 20.000</button>
                 </a>
-                <button class="store-btn btn-info mt-2" onclick="toggleFeatures('rankA')">Fitur Rank</button>
-                <ul id="rankA" class="features-list" style="display: none;">
-                    <li>Block Limit : 5000</li>
-                    <li>Claim Limit : 3</li>
-                    <li>Money: 25000</li>
-                    <li>UpSkills All : 15</li>
-                    <li>Sethome : 5</li>
-                    <li>Kit Akses : VIP</li>
-                    <li>/repair</li>
-                    <li>/heal</li>
-                    <li>/food</li>
-                    <li>/kit</li>
-                </ul>
             </div>
-            <div class="rank-item">
-                <i class="bi bi-diagram-2"></i>
-                <p>CITIZENS RANK</p>
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>2400 COIN</p>
                 <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
-                    <button class="store-btn btn-primary">IDR 35.000</button>
+                    <button class="store-btn btn-primary">IDR 30.000</button>
                 </a>
-                <button class="store-btn btn-info mt-2" onclick="toggleFeatures('rankB')">Fitur Rank</button>
-                <ul id="rankB" class="features-list" style="display: none;">
-                    <li>Block Limit : 8000</li>
-                    <li>Claim Limit : 5</li>
-                    <li>Money : 45000</li>
-                    <li>UpSkills All : 25</li>
-                    <li>Sethome : 10</li>
-                    <li>Kit Akses : MVP</li>
-                    <li>/nick</li>
-                    <li>/repair</li>
-                    <li>/heal</li>
-                    <li>/food</li>
-                    <li>/fly</li>
-                </ul>
             </div>
-            <div class="rank-item">
-                <i class="bi bi-diagram-2"></i>
-                <p>SERVANT RANK</p>
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>3200 COIN</p>
                 <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
-                    <button class="store-btn btn-primary">IDR 35.000</button>
+                    <button class="store-btn btn-primary">IDR 40.000</button>
                 </a>
-                <button class="store-btn btn-info mt-2" onclick="toggleFeatures('rankB')">Fitur Rank</button>
-                <ul id="rankB" class="features-list" style="display: none;">
-                    <li>Block Limit : 8000</li>
-                    <li>Claim Limit : 5</li>
-                    <li>Money : 45000</li>
-                    <li>UpSkills All : 25</li>
-                    <li>Sethome : 10</li>
-                    <li>Kit Akses : MVP</li>
-                    <li>/nick</li>
-                    <li>/repair</li>
-                    <li>/heal</li>
-                    <li>/food</li>
-                    <li>/fly</li>
-                </ul>
             </div>
-            <div class="rank-item">
-                <i class="bi bi-diagram-2"></i>
-                <p>EMPEROR RANK</p>
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>5000 COIN</p>
                 <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
-                    <button class="store-btn btn-primary">IDR 35.000</button>
+                    <button class="store-btn btn-primary">IDR 50.000</button>
                 </a>
-                <button class="store-btn btn-info mt-2" onclick="toggleFeatures('rankB')">Fitur Rank</button>
-                <ul id="rankB" class="features-list" style="display: none;">
-                    <li>Block Limit : 8000</li>
-                    <li>Claim Limit : 5</li>
-                    <li>Money : 45000</li>
-                    <li>UpSkills All : 25</li>
-                    <li>Sethome : 10</li>
-                    <li>Kit Akses : MVP</li>
-                    <li>/nick</li>
-                    <li>/repair</li>
-                    <li>/heal</li>
-                    <li>/food</li>
-                    <li>/fly</li>
-                </ul>
             </div>
-            <div class="rank-item">
-                <i class="bi bi-diagram-2"></i>
-                <p>SUPREME RANK</p>
+            <div class="coin-item">
+                <i class="bi bi-cash-coin"></i>
+                <p>10000 COIN</p>
                 <a href="https://discord.gg/MVKwCNy6gy" target="_blank">
-                    <button class="store-btn btn-primary">IDR 35.000</button>
+                    <button class="store-btn btn-primary">IDR 100.000</button>
                 </a>
-                <button class="store-btn btn-info mt-2" onclick="toggleFeatures('rankB')">Fitur Rank</button>
-                <ul id="rankB" class="features-list" style="display: none;">
-                    <li>Block Limit : 8000</li>
-                    <li>Claim Limit : 5</li>
-                    <li>Money : 45000</li>
-                    <li>UpSkills All : 25</li>
-                    <li>Sethome : 10</li>
-                    <li>Kit Akses : MVP</li>
-                    <li>/nick</li>
-                    <li>/repair</li>
-                    <li>/heal</li>
-                    <li>/food</li>
-                    <li>/fly</li>
-                </ul>
             </div>
         </div>
     </div>
-</section>
-    <!-- EcoRpg Section -->
+
+    <!-- Rank Section -->
     <div id="rank-section" class="store mt-4" style="display: none;">
         <div class="rank-items">
             <div class="rank-item">
